@@ -1,0 +1,11 @@
+== Welcome to LanguageHub
+
+This tool will return the dominant language used by a particular GitHub user.
+
+1. Launch the Rails Console:
+       $ rails c
+
+2. Run the lookup command:
+       Lookup.language("username")
+
+The languages used by the GitHub user are returned in order of the amount of bytes used, followed by their dominant language.
